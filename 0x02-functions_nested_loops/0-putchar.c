@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "collins.h"
+#include "main.h"
 /**
  *main - entry point
  *Description: Prgram that prints put char
