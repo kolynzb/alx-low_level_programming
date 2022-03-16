@@ -6,13 +6,12 @@
 /**
 * positive_or_negative - Evaluating random numbers
 * Description: this is a description
-* @a: Always 0 (Success)
+* @n: Always 0 (Success)
 */
 
-void positive_or_negative(int a)
+void positive_or_negative(int n)
 {
 
-	int n = a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
