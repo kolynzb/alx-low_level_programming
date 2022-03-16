@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *_islower - do some stuff
+ *@c - is a parameter
  */
 int _islower(int c)
 {
