@@ -1,20 +1,20 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
+
 /**
- * _strlen - a function that prints an integer.
- * @s: An input integer
- *Description: eturns the length aof str
- * Return: RETURNS THE LEGHT OF A STRING
+ *_strlen -length of a string
+ *@s: A pointer to an int that will be changed/updated
+ *
+ *Return: void that means our answer is correct
  */
+
 int _strlen(char *s)
 {
-	unsigned int count = 0;
+int u;
 
-	while (*s != '\0')
-	{
-		count++;
-		s++;
-	}
-	return (count);
+u = 0;
+while (s[u] != '\0')
+{
+u++;
+}
+return (u);
 }
